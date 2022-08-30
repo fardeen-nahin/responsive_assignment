@@ -76,23 +76,37 @@ Card Section CSS
 /* ---------------------------
 Left Card CSS
 ------------------------------*/
+.card-section{
+    display: flex;
+    justify-content: center;
+}
 
 .cards{
     margin-top: 130px;
+    display: flex;
+    gap: 70px;
 }
 
 .left-card{
-    margin: 0px 140px;
     background-color: #161616;
     padding: 30px;
+    border-radius: 10px;
 }
 
 .left-card a{
     display: block;
     margin: 30px;
     text-decoration: none;
-    background-color: #fbfbfb;
-    padding: 17px 80px;
+    background-color: rgb(251, 251, 251);
+    padding: 17px 46px;
+    text-align: center;
+    border-radius: 10px;
+    color: #161616;
+    font-weight: 600;
+}
+#blog-button{
+    background-color: #DD0000;
+    color: rgb(255, 255, 255);
 }
 
 
@@ -101,9 +115,6 @@ Right card CSS
 ------------------------------*/
 
 
-.cards{
-    width: 1321px;
-}
 
 .left-card{
     width: 312px;
@@ -111,14 +122,14 @@ Right card CSS
 }
 
 .all-cards{
-    margin: 50px 140px;
     display: grid;
+    column-gap: 24px;
     grid-template-columns: repeat(3, 1fr);
     row-gap: 24px;
 }
 
 .card{
-border: 1px #161616 solid;
+border: 1px #E8E8E8 solid;
 border-radius: 10px;
 width: 311px;
 }
@@ -128,7 +139,7 @@ display: inline-block;
 margin-top: 20px;
 margin-left: 20px;
 text-decoration: none;
-border: 1px #161616 solid;
+border: 1px #E8E8E8 solid;
 padding: 4px 16px;
 border-radius: 5px;
 color: #161616;
@@ -165,7 +176,9 @@ Footer CSS
 .footer-section{
     height: 444px;
     background-color: #161616;
+    margin-top: 130px;
 }
+
 .footer-text{
     color: white;
     text-align: center;
