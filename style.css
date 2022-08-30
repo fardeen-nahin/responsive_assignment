@@ -1,0 +1,190 @@
+/* Utilities */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #fbfbfb;
+    margin: 0;
+}
+
+/* ---------------------------
+Header Section CSS
+------------------------------*/
+
+.container{
+margin: 50px 140px;
+background-color: #161616;
+border-radius: 30px;
+height: 646px;
+display: flex;
+}
+
+.half-width{
+    width: 50%;    
+}
+
+.header{
+    padding-left:  106px;
+}
+
+.header a{
+    text-decoration: none;
+    background-color: #DD0000;
+    padding: 16px 25px;
+    color: white;
+}
+
+.header i{
+    padding-left: 10px;
+}
+
+.header-title{
+    color: white;
+    padding-top: 111px;
+    font-size: 70px;
+    font-weight: bold;
+    line-height: 80px;
+    margin-bottom: 20px;
+    margin-top: 0px;
+    }
+
+.header p{
+    color: white;
+    font-size: 16px;
+    font-weight: 200;
+    line-height: 26px;
+    margin-top: 20px;
+}
+
+.header-button{
+    margin-top: 70px;
+}
+
+.header-image{
+    position: absolute;
+    width: 581px;
+    height: 613px;
+    top: 83px;
+}
+
+
+/* ---------------------------
+Card Section CSS
+------------------------------*/
+
+/* ---------------------------
+Left Card CSS
+------------------------------*/
+
+.cards{
+    margin-top: 130px;
+}
+
+.left-card{
+    margin: 0px 140px;
+    background-color: #161616;
+    padding: 30px;
+}
+
+.left-card a{
+    display: block;
+    margin: 30px;
+    text-decoration: none;
+    background-color: #fbfbfb;
+    padding: 17px 80px;
+}
+
+
+/* ---------------------------
+Right card CSS
+------------------------------*/
+
+
+.cards{
+    width: 1321px;
+}
+
+.left-card{
+    width: 312px;
+    height: 312px;
+}
+
+.all-cards{
+    margin: 50px 140px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 24px;
+}
+
+.card{
+border: 1px #161616 solid;
+border-radius: 10px;
+width: 311px;
+}
+
+.card-button{
+display: inline-block;
+margin-top: 20px;
+margin-left: 20px;
+text-decoration: none;
+border: 1px #161616 solid;
+padding: 4px 16px;
+border-radius: 5px;
+color: #161616;
+}
+.card-header{
+    margin-left: 20px;
+}
+
+.information{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.information a{
+    text-decoration: none;
+    color: hwb(0 9% 91% / 0.700);
+}
+.information i{
+    color: hwb(0 9% 91% / 0.700);
+    margin-left: 20px;
+}
+.review{
+
+}
+
+.fa-regular{
+    margin-right:5px;
+}
+
+/* ---------------------------
+Footer CSS
+------------------------------*/
+
+.footer-section{
+    height: 444px;
+    background-color: #161616;
+}
+.footer-text{
+    color: white;
+    text-align: center;
+    padding-top: 130px;
+}
+
+hr{
+    height: 1px;
+        background-color: rgb(59, 59, 59);
+        border: none;
+}
+.footer-links{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.footer-links a{
+    text-decoration: none;
+    color: whitesmoke;
+    margin-left: 60px;
+}
